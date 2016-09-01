@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		110F5A5E1D78ECE000143E78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 110F5A5D1D78ECE000143E78 /* main.m */; };
+		110F5A611D78ECE000143E78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 110F5A601D78ECE000143E78 /* AppDelegate.m */; };
+		110F5A641D78ECE000143E78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 110F5A631D78ECE000143E78 /* ViewController.m */; };
+		110F5A671D78ECE000143E78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110F5A651D78ECE000143E78 /* Main.storyboard */; };
+		110F5A691D78ECE000143E78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 110F5A681D78ECE000143E78 /* Assets.xcassets */; };
+		110F5A6C1D78ECE000143E78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110F5A6A1D78ECE000143E78 /* LaunchScreen.storyboard */; };
+		110F5A771D78ECE100143E78 /* FLTranslucentNavigationBar_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 110F5A761D78ECE100143E78 /* FLTranslucentNavigationBar_OCTests.m */; };
+		110F5A821D78ECE200143E78 /* FLTranslucentNavigationBar_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 110F5A811D78ECE200143E78 /* FLTranslucentNavigationBar_OCUITests.m */; };
+		110F5ACB1D78ED7300143E78 /* FLTranlucentRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 110F5ACA1D78ED7300143E78 /* FLTranlucentRootViewController.m */; };
+		110F5ACE1D78EDAF00143E78 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 110F5ACD1D78EDAF00143E78 /* SecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		110F5A731D78ECE100143E78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 110F5A511D78ECE000143E78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 110F5A581D78ECE000143E78;
+			remoteInfo = FLTranslucentNavigationBar_OC;
+		};
+		110F5A7E1D78ECE100143E78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 110F5A511D78ECE000143E78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 110F5A581D78ECE000143E78;
+			remoteInfo = FLTranslucentNavigationBar_OC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		110F5A591D78ECE000143E78 /* FLTranslucentNavigationBar_OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLTranslucentNavigationBar_OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		110F5A5D1D78ECE000143E78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		110F5A5F1D78ECE000143E78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		110F5A601D78ECE000143E78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		110F5A621D78ECE000143E78 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		110F5A631D78ECE000143E78 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		110F5A661D78ECE000143E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		110F5A681D78ECE000143E78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		110F5A6B1D78ECE000143E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		110F5A6D1D78ECE100143E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		110F5A721D78ECE100143E78 /* FLTranslucentNavigationBar_OCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLTranslucentNavigationBar_OCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		110F5A761D78ECE100143E78 /* FLTranslucentNavigationBar_OCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLTranslucentNavigationBar_OCTests.m; sourceTree = "<group>"; };
+		110F5A781D78ECE100143E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		110F5A7D1D78ECE100143E78 /* FLTranslucentNavigationBar_OCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLTranslucentNavigationBar_OCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		110F5A811D78ECE200143E78 /* FLTranslucentNavigationBar_OCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLTranslucentNavigationBar_OCUITests.m; sourceTree = "<group>"; };
+		110F5A831D78ECE200143E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		110F5AC91D78ED7300143E78 /* FLTranlucentRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLTranlucentRootViewController.h; sourceTree = "<group>"; };
+		110F5ACA1D78ED7300143E78 /* FLTranlucentRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLTranlucentRootViewController.m; sourceTree = "<group>"; };
+		110F5ACC1D78EDAF00143E78 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		110F5ACD1D78EDAF00143E78 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		110F5A561D78ECE000143E78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110F5A6F1D78ECE100143E78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110F5A7A1D78ECE100143E78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		110F5A501D78ECE000143E78 = {
+			isa = PBXGroup;
+			children = (
+				110F5A5B1D78ECE000143E78 /* FLTranslucentNavigationBar_OC */,
+				110F5A751D78ECE100143E78 /* FLTranslucentNavigationBar_OCTests */,
+				110F5A801D78ECE200143E78 /* FLTranslucentNavigationBar_OCUITests */,
+				110F5A5A1D78ECE000143E78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		110F5A5A1D78ECE000143E78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				110F5A591D78ECE000143E78 /* FLTranslucentNavigationBar_OC.app */,
+				110F5A721D78ECE100143E78 /* FLTranslucentNavigationBar_OCTests.xctest */,
+				110F5A7D1D78ECE100143E78 /* FLTranslucentNavigationBar_OCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		110F5A5B1D78ECE000143E78 /* FLTranslucentNavigationBar_OC */ = {
+			isa = PBXGroup;
+			children = (
+				110F5AC91D78ED7300143E78 /* FLTranlucentRootViewController.h */,
+				110F5ACA1D78ED7300143E78 /* FLTranlucentRootViewController.m */,
+				110F5A5F1D78ECE000143E78 /* AppDelegate.h */,
+				110F5A601D78ECE000143E78 /* AppDelegate.m */,
+				110F5A621D78ECE000143E78 /* ViewController.h */,
+				110F5A631D78ECE000143E78 /* ViewController.m */,
+				110F5ACC1D78EDAF00143E78 /* SecondViewController.h */,
+				110F5ACD1D78EDAF00143E78 /* SecondViewController.m */,
+				110F5A651D78ECE000143E78 /* Main.storyboard */,
+				110F5A681D78ECE000143E78 /* Assets.xcassets */,
+				110F5A6A1D78ECE000143E78 /* LaunchScreen.storyboard */,
+				110F5A6D1D78ECE100143E78 /* Info.plist */,
+				110F5A5C1D78ECE000143E78 /* Supporting Files */,
+			);
+			path = FLTranslucentNavigationBar_OC;
+			sourceTree = "<group>";
+		};
+		110F5A5C1D78ECE000143E78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				110F5A5D1D78ECE000143E78 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		110F5A751D78ECE100143E78 /* FLTranslucentNavigationBar_OCTests */ = {
+			isa = PBXGroup;
+			children = (
+				110F5A761D78ECE100143E78 /* FLTranslucentNavigationBar_OCTests.m */,
+				110F5A781D78ECE100143E78 /* Info.plist */,
+			);
+			path = FLTranslucentNavigationBar_OCTests;
+			sourceTree = "<group>";
+		};
+		110F5A801D78ECE200143E78 /* FLTranslucentNavigationBar_OCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				110F5A811D78ECE200143E78 /* FLTranslucentNavigationBar_OCUITests.m */,
+				110F5A831D78ECE200143E78 /* Info.plist */,
+			);
+			path = FLTranslucentNavigationBar_OCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		110F5A581D78ECE000143E78 /* FLTranslucentNavigationBar_OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 110F5A861D78ECE200143E78 /* Build configuration list for PBXNativeTarget "FLTranslucentNavigationBar_OC" */;
+			buildPhases = (
+				110F5A551D78ECE000143E78 /* Sources */,
+				110F5A561D78ECE000143E78 /* Frameworks */,
+				110F5A571D78ECE000143E78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLTranslucentNavigationBar_OC;
+			productName = FLTranslucentNavigationBar_OC;
+			productReference = 110F5A591D78ECE000143E78 /* FLTranslucentNavigationBar_OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		110F5A711D78ECE100143E78 /* FLTranslucentNavigationBar_OCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 110F5A891D78ECE200143E78 /* Build configuration list for PBXNativeTarget "FLTranslucentNavigationBar_OCTests" */;
+			buildPhases = (
+				110F5A6E1D78ECE100143E78 /* Sources */,
+				110F5A6F1D78ECE100143E78 /* Frameworks */,
+				110F5A701D78ECE100143E78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				110F5A741D78ECE100143E78 /* PBXTargetDependency */,
+			);
+			name = FLTranslucentNavigationBar_OCTests;
+			productName = FLTranslucentNavigationBar_OCTests;
+			productReference = 110F5A721D78ECE100143E78 /* FLTranslucentNavigationBar_OCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		110F5A7C1D78ECE100143E78 /* FLTranslucentNavigationBar_OCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 110F5A8C1D78ECE200143E78 /* Build configuration list for PBXNativeTarget "FLTranslucentNavigationBar_OCUITests" */;
+			buildPhases = (
+				110F5A791D78ECE100143E78 /* Sources */,
+				110F5A7A1D78ECE100143E78 /* Frameworks */,
+				110F5A7B1D78ECE100143E78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				110F5A7F1D78ECE100143E78 /* PBXTargetDependency */,
+			);
+			name = FLTranslucentNavigationBar_OCUITests;
+			productName = FLTranslucentNavigationBar_OCUITests;
+			productReference = 110F5A7D1D78ECE100143E78 /* FLTranslucentNavigationBar_OCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		110F5A511D78ECE000143E78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = clarence;
+				TargetAttributes = {
+					110F5A581D78ECE000143E78 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					110F5A711D78ECE100143E78 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 110F5A581D78ECE000143E78;
+					};
+					110F5A7C1D78ECE100143E78 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 110F5A581D78ECE000143E78;
+					};
+				};
+			};
+			buildConfigurationList = 110F5A541D78ECE000143E78 /* Build configuration list for PBXProject "FLTranslucentNavigationBar_OC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 110F5A501D78ECE000143E78;
+			productRefGroup = 110F5A5A1D78ECE000143E78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				110F5A581D78ECE000143E78 /* FLTranslucentNavigationBar_OC */,
+				110F5A711D78ECE100143E78 /* FLTranslucentNavigationBar_OCTests */,
+				110F5A7C1D78ECE100143E78 /* FLTranslucentNavigationBar_OCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		110F5A571D78ECE000143E78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110F5A6C1D78ECE000143E78 /* LaunchScreen.storyboard in Resources */,
+				110F5A691D78ECE000143E78 /* Assets.xcassets in Resources */,
+				110F5A671D78ECE000143E78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110F5A701D78ECE100143E78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110F5A7B1D78ECE100143E78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		110F5A551D78ECE000143E78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110F5ACE1D78EDAF00143E78 /* SecondViewController.m in Sources */,
+				110F5ACB1D78ED7300143E78 /* FLTranlucentRootViewController.m in Sources */,
+				110F5A641D78ECE000143E78 /* ViewController.m in Sources */,
+				110F5A611D78ECE000143E78 /* AppDelegate.m in Sources */,
+				110F5A5E1D78ECE000143E78 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110F5A6E1D78ECE100143E78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110F5A771D78ECE100143E78 /* FLTranslucentNavigationBar_OCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110F5A791D78ECE100143E78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110F5A821D78ECE200143E78 /* FLTranslucentNavigationBar_OCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		110F5A741D78ECE100143E78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 110F5A581D78ECE000143E78 /* FLTranslucentNavigationBar_OC */;
+			targetProxy = 110F5A731D78ECE100143E78 /* PBXContainerItemProxy */;
+		};
+		110F5A7F1D78ECE100143E78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 110F5A581D78ECE000143E78 /* FLTranslucentNavigationBar_OC */;
+			targetProxy = 110F5A7E1D78ECE100143E78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		110F5A651D78ECE000143E78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				110F5A661D78ECE000143E78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		110F5A6A1D78ECE000143E78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				110F5A6B1D78ECE000143E78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		110F5A841D78ECE200143E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		110F5A851D78ECE200143E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		110F5A871D78ECE200143E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FLTranslucentNavigationBar_OC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "clarence.FLTranslucentNavigationBar-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		110F5A881D78ECE200143E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FLTranslucentNavigationBar_OC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "clarence.FLTranslucentNavigationBar-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		110F5A8A1D78ECE200143E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FLTranslucentNavigationBar_OCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "clarence.FLTranslucentNavigationBar-OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLTranslucentNavigationBar_OC.app/FLTranslucentNavigationBar_OC";
+			};
+			name = Debug;
+		};
+		110F5A8B1D78ECE200143E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FLTranslucentNavigationBar_OCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "clarence.FLTranslucentNavigationBar-OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLTranslucentNavigationBar_OC.app/FLTranslucentNavigationBar_OC";
+			};
+			name = Release;
+		};
+		110F5A8D1D78ECE200143E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FLTranslucentNavigationBar_OCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "clarence.FLTranslucentNavigationBar-OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FLTranslucentNavigationBar_OC;
+			};
+			name = Debug;
+		};
+		110F5A8E1D78ECE200143E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FLTranslucentNavigationBar_OCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "clarence.FLTranslucentNavigationBar-OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FLTranslucentNavigationBar_OC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		110F5A541D78ECE000143E78 /* Build configuration list for PBXProject "FLTranslucentNavigationBar_OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110F5A841D78ECE200143E78 /* Debug */,
+				110F5A851D78ECE200143E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		110F5A861D78ECE200143E78 /* Build configuration list for PBXNativeTarget "FLTranslucentNavigationBar_OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110F5A871D78ECE200143E78 /* Debug */,
+				110F5A881D78ECE200143E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		110F5A891D78ECE200143E78 /* Build configuration list for PBXNativeTarget "FLTranslucentNavigationBar_OCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110F5A8A1D78ECE200143E78 /* Debug */,
+				110F5A8B1D78ECE200143E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		110F5A8C1D78ECE200143E78 /* Build configuration list for PBXNativeTarget "FLTranslucentNavigationBar_OCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110F5A8D1D78ECE200143E78 /* Debug */,
+				110F5A8E1D78ECE200143E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 110F5A511D78ECE000143E78 /* Project object */;
+}
