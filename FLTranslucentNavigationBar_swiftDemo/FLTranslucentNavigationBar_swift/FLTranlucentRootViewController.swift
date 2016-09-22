@@ -14,12 +14,13 @@ class FLTranlucentRootViewController: UIViewController {
         didSet {
             navBar.backgroundColor = fl_navBarColor
             navBar.alpha = 1.0
+            view.bringSubviewToFront(navBar)
         }
     }
     
     private lazy var navBar : UIView = {
         let view = UIView()
-        view.frame = CGRect.init(x: 0.0, y: 0.0, width: UIScreen.mainScreen().bounds.size.width, height: 64)
+        view.frame = CGRect.init(x: 0.0, y: 0.0, width: self.view.size.width, height: 64)
         view.alpha = 0.0
         return view
     }()

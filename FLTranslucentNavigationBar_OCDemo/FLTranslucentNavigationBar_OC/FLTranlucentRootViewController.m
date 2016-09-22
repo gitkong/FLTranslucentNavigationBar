@@ -51,7 +51,7 @@
 - (UIView *)navBar{
     if (_navBar == nil) {
         _navBar = [[UIView alloc] init];
-        _navBar.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 64);
+        _navBar.frame = CGRectMake(0, 0, self.view.bounds.size.width, 64);
         _navBar.alpha = 0.0;
     }
     return _navBar;
@@ -61,6 +61,7 @@
     _fl_navBarColor = fl_navBarColor;
     self.navBar.backgroundColor = fl_navBarColor;
     self.navBar.alpha = 1.0;
+    [self.view bringSubviewToFront:self.navBar];
 }
 
 

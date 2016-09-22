@@ -199,13 +199,16 @@
 				TargetAttributes = {
 					110F5A971D78ED0700143E78 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 					};
 					110F5AAB1D78ED0700143E78 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 						TestTargetID = 110F5A971D78ED0700143E78;
 					};
 					110F5AB61D78ED0700143E78 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 						TestTargetID = 110F5A971D78ED0700143E78;
 					};
 				};
@@ -411,6 +414,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "clarence.FLTranslucentNavigationBar-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -422,6 +426,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "clarence.FLTranslucentNavigationBar-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -433,6 +438,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "clarence.FLTranslucentNavigationBar-swiftTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLTranslucentNavigationBar_swift.app/FLTranslucentNavigationBar_swift";
 			};
 			name = Debug;
@@ -445,6 +451,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "clarence.FLTranslucentNavigationBar-swiftTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLTranslucentNavigationBar_swift.app/FLTranslucentNavigationBar_swift";
 			};
 			name = Release;
@@ -456,6 +463,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "clarence.FLTranslucentNavigationBar-swiftUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = FLTranslucentNavigationBar_swift;
 			};
 			name = Debug;
@@ -467,6 +475,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "clarence.FLTranslucentNavigationBar-swiftUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = FLTranslucentNavigationBar_swift;
 			};
 			name = Release;
@@ -490,6 +499,7 @@
 				110F5AC21D78ED0700143E78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		110F5AC31D78ED0700143E78 /* Build configuration list for PBXNativeTarget "FLTranslucentNavigationBar_swiftTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +508,7 @@
 				110F5AC51D78ED0700143E78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		110F5AC61D78ED0700143E78 /* Build configuration list for PBXNativeTarget "FLTranslucentNavigationBar_swiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +517,7 @@
 				110F5AC81D78ED0700143E78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
